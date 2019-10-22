@@ -4,6 +4,7 @@
 
 #map {
 	background-color: #1099BB;
+	padding: 0px;
 }
 
 .map-heading {
@@ -11,7 +12,8 @@
 	margin-top: .3em;
 	border: 1px solid;
 	/*border-radius: .1em;*/
-	padding: .1em;
+	padding: .5em 0em .5em 0em;
+	margin-top: 0px;
 }
 
 #menu {
@@ -25,6 +27,10 @@
 
 .access-log-row {
 	background-color: #ecf0f1;
+}
+
+.access-log-row:nth-child(even) {
+	background-color: #e2e8e9;
 }
 
 .access-log-container {

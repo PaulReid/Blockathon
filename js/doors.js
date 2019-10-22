@@ -212,28 +212,24 @@ function displayAccessLogResponse() {
 
 
 	for(var i in accessLog) {
-		var username = accessLog[i].locationAccessDevice.ownedByPerson.descriptor
-		var device = accessLog[i].locationAccessDevice.descriptor
-		var timestamp = accessLog[i].accessMoment
-		var 
-
-		console.log(timestamp)
-
+		var username = accessLog[i].locationAccessDevice.ownedByPerson.descriptor;
+		var device = accessLog[i].locationAccessDevice.descriptor;
+		var status = accessLog[i].accessGranted;
+		var timestamp = accessLog[i].accessMoment;
+		
 		
 
 
+		$(".access-log-body").append(`
 
-		//$(".access-log-body").append("<tr class='access-log-row'><td>" + )
+			<tr class='access-log-row'>
+				<td>` + username + `</td>
+				<td>` + device + `</td>
+				<td>` + status + `</td>
+				<td>` + timestamp + `</td>
+			</tr>
 
-
-
-		// <tr>
-		// 	<td>Mark Otto<w/td>
-		// 	<td>Keycard</td>
-		// 	<td>True</td>
-		// 	<td>Wed 01-01-2009 6:00</td>
-		// </tr>
-		
+			`)
 	}	
 
 }
