@@ -1,0 +1,78 @@
+.container{
+
+}
+
+#map {
+	background-color: #1099BB;
+}
+
+.map-heading {
+	background-color: #ecf0f1;
+	margin-top: .3em;
+	border: 1px solid;
+	/*border-radius: .1em;*/
+	padding: .1em;
+}
+
+#menu {
+	background-color: #ecf0f1;
+	border: 1px solid;
+}
+
+#config-title {
+	text-align: center;
+}
+
+.access-log-row {
+	background-color: #ecf0f1;
+}
+
+.access-log-container {
+
+}
+
+.details-table {
+
+}
+
+.detail-wrapper {
+	width: 100%;
+	height: 3em;
+	padding-top: .8em;
+	/*background-color: red;*/
+}
+
+.detail-label {
+	width: 25%;
+	height: 2em;
+	/*background-color: blue;*/
+	display: block;
+	float: left;
+	font-weight: bold;
+
+}
+
+.detail-value {
+	width: 75%;
+	height: 2em;
+	/*background-color: green;*/
+	display: block;
+	float: left;
+	overflow-x: scroll;
+}
+
+.access-list-wrapper {
+	overflow-y: scroll;
+}
+
+.access-list-label {
+	font-weight: bold;
+}
+
+
+.access-list-value {
+	border-bottom: 1px solid;
+	list-style-type: none;
+	padding: 1em 0em 1em 0em;
+
+}
