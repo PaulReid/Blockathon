@@ -18,6 +18,8 @@
 	border-style: solid;
  	border-width: 1px 0px 0px 1px;
  	padding: 0px;
+ 	height: 670px;
+ 	overflow-y: scroll;
 }
 
 #config-title {
@@ -42,10 +44,8 @@
 .access-log-container {
 	background-color: #f5f6fa;
 	border: 1px solid;
-}
-
-.details-table {
-
+	height: 400px;
+	overflow-y: scroll;
 }
 
 .detail-wrapper {
@@ -93,4 +93,27 @@
 .access-list-value:last-child {
 	border-style: solid;
  	border-width: 1px 0px 1px 0px;
+}
+
+.access-heading {
+	padding: .2em 0em .2em 0em;
+}
+
+.access-metric-container {
+	height: 2em;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.access-metric {
+	width: 10%;
+	float: left;
+}
+
+.granted {
+	color: green;
+}
+
+.denied {
+	color: red;
 }
