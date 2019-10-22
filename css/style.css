@@ -1,7 +1,3 @@
-.container{
-
-}
-
 #map {
 	background-color: #1099BB;
 	padding: 0px;
@@ -14,6 +10,7 @@
 	/*border-radius: .1em;*/
 	padding: .5em 0em .5em 0em;
 	margin-top: 0px;
+	text-align: center;
 }
 
 #menu {
@@ -34,7 +31,8 @@
 }
 
 .access-log-container {
-
+	background-color: #ecf0f1;
+	border: 1px solid;
 }
 
 .details-table {
